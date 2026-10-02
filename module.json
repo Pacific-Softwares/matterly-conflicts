@@ -1,0 +1,19 @@
+{
+    "manifest": 1,
+    "slug": "matterly-conflicts",
+    "name": "Conflict Check",
+    "description": "Check every new client or opposing party against your clients, matters and recorded parties before you take a case on. Record the outcome of each check for your compliance log, and get flagged automatically when a new client was once on the other side.",
+    "version": "1.0.0",
+    "product": "matterly",
+    "requires": { "product": "^1.3", "licentra": "^1.5" },
+    "namespace": "Modules\\MatterlyConflicts\\",
+    "provider": "Modules\\MatterlyConflicts\\ModuleServiceProvider",
+    "envato_item_id": null,
+    "plan_feature": false,
+    "capabilities": {
+        "tables": ["matterly_conflicts_parties", "matterly_conflicts_checks"],
+        "outbound": [],
+        "routes": [],
+        "schedule": false
+    }
+}
